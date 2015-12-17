@@ -234,21 +234,21 @@
 						<div class="faq-column first">
 							<h4>Service</h4>
 							<h5>File size limit</h5>
-							<p>There is no file limit. Files that are more than 10MB may require a support engineer to adjust some settings. Good news is that the MaxCDN Speed Team is proactive and will reach out if there is an issue pulling larger files from your origin.</p>
+							<p>There is no file size limit. Files that are more than 1GB <b>might</b> require a support engineer to adjust some settings. Good news is that the MaxCDN Speed Team is proactive and will reach out if there is an issue pulling larger files from your origin.</p>
 							<h5>Range requests</h5>
 							<p>We support range request as a free feature add-on. The setting can be enabled by a support engineer.</p>
 
 							<h5>Video</h5>
 							<ul>
 							<li>We support HTML5/HTTP psuedo-streaming for the following file types: mp4, m4a, m4v, mov, flv.</li>
-							<li>We DO NOT support the following file types: swf, wmv, mpg, 3gp, nsv, asf, xap.</li>
-							<li>We DO NOT support the following protocols: RTMP, RTSP, HTTP Live, HDS, DASH, Shoutcast, BitTorrent Live Streaming, Microsoft Smooth Streaming.</li>
+							<li>We <b>DO NOT</b> support the following file types: swf, wmv, mpg, 3gp, nsv, asf, xap.</li>
+							<li>We <b>DO NOT</b> support the following protocols: RTMP, RTSP, HTTP Live, HDS, DASH, Shoutcast, BitTorrent Live Streaming, Microsoft Smooth Streaming.</li>
 							</ul>
 							<h5>FTP for storage</h5>
 							<ul>
 							<li>We do not have FTP support. This platform only supports Origin Pull zones.</li>
-							<li>Our servers pull content from your servers via HTTP.</li>
-							<li>We DO NOT support any of the following protocols: FTP, LFTP, RSYNC, SCP or Git.</li>
+							<li>Our servers pull content from your servers via HTTP(s).</li>
+							<li>We <b>DO NOT</b> support any of the following protocols: FTP, SFTP, LFTP, SSH, RSYNC, SCP or Git.</li>
 							<li>If you need storage we suggest using AWS S3.</li>
 							<li>If you require storage contact <a href="mailto:sales@maxcdn.com">sales@maxcdn.com</a>.</li>
 							</ul>
@@ -256,12 +256,14 @@
 							<ul>
 							<li>We offer 4 kinds of SSL: Dedicated (IP), Wildcard, Shared and SNI.</li>
 							<li>Shared and SNI are free of charge.</li>
-							<li>Dedicated and SNI SSL can have custom CNAMES e.g.: https://cdn.yourdomain.com for $250/month.</li>
-							<li>Wildcard SSL for $500/month.</li>
-							<li>Shared SSL CAN'T have custom CNAMES. Shared looks like: https://zone-bwh1337.bwhog.net</li>
+							<li>Shared SSL <b>CAN NOT</b> have custom CNAMES. Shared SSL urls looks like: https://zone-bwh1337.bwhog.net</li>
+							<li>Dedicated and SNI SSL can have custom CNAMES e.g.: https://cdn.yourdomain.com</li>
+							<li>Dedicated is $250/month.</li>
+							<li>Wildcard SSL is $500/month.</li>
+
 							</ul>
 							<h5>Support policy</h5>
-							<p>We offer chat and email support 24/7/365. Priority support available via MaxCDN solution.</p>
+							<p>We offer chat and email support 24/7/365. Priority support is available via MaxCDN Enterprise.</p>
 
 							<h5>SLA (Service Level Agreement)</h5>
 							<p>We offer the same SLA as all MaxCDN customers. You can read the SLA policy <a href="https://www.maxcdn.com/legal/#sla" target="_blank">here</a>.</p>
@@ -273,13 +275,17 @@
 							</ul>
 							<h5>API</h5>
 							<ul>
-							<li>Bandwidth Hog <b>does not</b> offer an API at this time.</li>
+							<li>Bandwidth Hog <b>DOES NOT</b> offer an API at this time.</li>
 							<li>If you need an API please email <a href="mailto:sales@maxcdn.com">sales@maxcdn.com</a>.</li>
 							</ul>
 						</div>
 						<div class="faq-column">
 							<h5>Datacenters</h5>
-							<p>We provide 3 datacenters in the US and 3 datacenters in Europe. In case you need more coverage go to <a href="https://www.maxcdn.com/?ref=bwhog" target="_blank">www.maxcdn.com</a>.</p>
+							<p>We offer <b>6 datacenters</b> (also known as POPs) in total.</p>
+							<ul>
+								<li>3 datacenters in the US</li>
+								<li>3 datacenters in Europe</li>
+								<li>In case you need more coverage go to <a href="https://www.maxcdn.com/?ref=bwhog" target="_blank">www.maxcdn.com</a>.</li>
 
 							<h5>Access Logs</h5>
 							<ul>
@@ -294,7 +300,7 @@
 							</ul>
 							<h5>Secure Tokens</h5>
 							<ul>
-							<li>The add-on is an extra monthly charge of $99.</li>
+							<li>The add-on is an extra monthly charge of $150.</li>
 							<li>Can be enabled in the Control Panel.</li>
 							<li>We have multiple code examples (PHP, Node.js, Python,Ruby, .NET) for creating compatible tokens.</li>
 							</ul>
@@ -312,18 +318,17 @@
 							<ul>
 							<li>To be on the Bandwidth Hog service you must pay a $249/month platform fee.</li>
 							<li>This provides you access to Bandwidth Hog and you can use our 1¢/gb pay as you go pricing.</li>
-							<li>The platform fee disappears if you sign up before October 1, 2015 or if you pick one of the bigger plans. You can also choose a bandwidth package which includes a set amount of bandwidth (e.g. 100TB) for a fixed price. After you pass the set amount you will be charge per gig.</li>
+							<li>The is no platform fee if you signed up before October 1, 2015 or if you pick one of the bigger plans. You can also choose a bandwidth package which includes a set amount of bandwidth (e.g. 100TB) for a fixed price. After you pass the set amount you will be charge per gigabyte.</li>
 							<li>ALL overages are billed in $500 increments. For example if you have $1,000 of overages for a certain month, you will have two invoices and two credit card charges.</li>
 							</ul>
 							<h5>Contracts</h5>
 							<p>We do not offer contracts. If you would like a contract email <a href="mailto:sales@maxcdn.com">sales@maxcdn.com</a>.</p>
 
 							<h5>Coupon codes</h5>
-							<p>We do not offer or accept coupons.</p>
+							<p>We <b>DO NOT</b> offer or accept coupons.</p>
 
 							<h5>Refunds</h5>
-							<p>We do not offer refunds of any kind.</p>
-
+							<p>We <b>DO NOT</b> offer refunds of any kind.</p>
 						</div>
 					</div>
 				</div>
